@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual Environments (created by venv, virtualenv, uv, etc.)
+.venv/
+venv/
+env/
+
+# LangSmith (often used with LangGraph/LangChain)
+.langsmith/
+
+# Environment variables
+.env
+
+# IDE / Editor specific
+.vscode/
+.idea/

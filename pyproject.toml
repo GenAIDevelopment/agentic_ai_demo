@@ -1,0 +1,17 @@
+[project]
+name = "agentic-ai-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain[google-vertexai]>=0.3.27",
+    "langchain-community>=0.3.29",
+    "langgraph>=0.6.7",
+    "faker>=37.8.0",
+    "pandas>=2.3.2",
+    "tqdm>=4.67.1",
+    "pydantic>=2.11.9",
+    "langgraph-cli[inmem]>=0.4.2",
+    "matplotlib>=3.10.6",
+]

@@ -1,0 +1,15 @@
+{
+    "dependencies": [
+        "langchain[google-vertexai]",
+        "langchain-community",
+        "langgraph",
+        "pandas",
+        "tqdm",
+        "pydantic",
+        "matplotlib"
+    ],
+    "graphs": {
+        "basic": "agent:graph",
+        "sql": "agent_with_sql:graph"
+    }
+}
